@@ -5,8 +5,8 @@ def generate_otp():
     return str(random.randint(100000, 999999))
 
 def send_otp_email(receiver_email, otp):
-    sender_email = "aliiraza92786@gmail.com"   # Replace with your Gmail email address
-    sender_password = "allrovtstvkcculo" # Replace with your Gmail account password or App Password
+    sender_email = "admin@mail.com"   # Replace with your Gmail email address
+    sender_password = "***************" # Replace with your Gmail account password or App Password
 
     subject = "Your OTP Code"
     body = f"Your OTP code is: {otp}"
